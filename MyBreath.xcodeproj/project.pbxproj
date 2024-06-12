@@ -14,6 +14,18 @@
 		55144A922C19A77100748AE5 /* MyBreathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144A912C19A77100748AE5 /* MyBreathTests.swift */; };
 		55144A9C2C19A77100748AE5 /* MyBreathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144A9B2C19A77100748AE5 /* MyBreathUITests.swift */; };
 		55144A9E2C19A77100748AE5 /* MyBreathUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144A9D2C19A77100748AE5 /* MyBreathUITestsLaunchTests.swift */; };
+		55144AAB2C19BE3700748AE5 /* DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144AAA2C19BE3700748AE5 /* DisplayMode.swift */; };
+		55144AAE2C19BE6500748AE5 /* DisplayModeKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144AAD2C19BE6500748AE5 /* DisplayModeKey.swift */; };
+		55144AB02C19BF0A00748AE5 /* DisplayModeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144AAF2C19BF0A00748AE5 /* DisplayModeModifier.swift */; };
+		55144AB22C19BF6100748AE5 /* NormalStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144AB12C19BF6100748AE5 /* NormalStyle.swift */; };
+		55144AB42C19C06400748AE5 /* BigStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144AB32C19C06400748AE5 /* BigStyle.swift */; };
+		55144AB62C19C65F00748AE5 /* DisplayModeSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144AB52C19C65F00748AE5 /* DisplayModeSelectorView.swift */; };
+		55144AB82C19F6FF00748AE5 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144AB72C19F6FF00748AE5 /* Package.swift */; };
+		55144ABB2C19F8E500748AE5 /* SwiftSVG in Frameworks */ = {isa = PBXBuildFile; productRef = 55144ABA2C19F8E500748AE5 /* SwiftSVG */; };
+		55144ABE2C19F9D300748AE5 /* logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 55144ABD2C19F9D300748AE5 /* logo.svg */; };
+		555450562C1A0B1400158A75 /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555450552C1A0B1400158A75 /* TextStyles.swift */; };
+		5554505A2C1A0E0700158A75 /* NormalTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555450592C1A0E0700158A75 /* NormalTextButton.swift */; };
+		5554505C2C1A0E1B00158A75 /* BigTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5554505B2C1A0E1B00158A75 /* BigTextButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,17 @@
 		55144A972C19A77100748AE5 /* MyBreathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBreathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55144A9B2C19A77100748AE5 /* MyBreathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBreathUITests.swift; sourceTree = "<group>"; };
 		55144A9D2C19A77100748AE5 /* MyBreathUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBreathUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55144AAA2C19BE3700748AE5 /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
+		55144AAD2C19BE6500748AE5 /* DisplayModeKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayModeKey.swift; sourceTree = "<group>"; };
+		55144AAF2C19BF0A00748AE5 /* DisplayModeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayModeModifier.swift; sourceTree = "<group>"; };
+		55144AB12C19BF6100748AE5 /* NormalStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalStyle.swift; sourceTree = "<group>"; };
+		55144AB32C19C06400748AE5 /* BigStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigStyle.swift; sourceTree = "<group>"; };
+		55144AB52C19C65F00748AE5 /* DisplayModeSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayModeSelectorView.swift; sourceTree = "<group>"; };
+		55144AB72C19F6FF00748AE5 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		55144ABD2C19F9D300748AE5 /* logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logo.svg; sourceTree = "<group>"; };
+		555450552C1A0B1400158A75 /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
+		555450592C1A0E0700158A75 /* NormalTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalTextButton.swift; sourceTree = "<group>"; };
+		5554505B2C1A0E1B00158A75 /* BigTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTextButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55144ABB2C19F8E500748AE5 /* SwiftSVG in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +120,12 @@
 			children = (
 				55144A802C19A77000748AE5 /* MyBreathApp.swift */,
 				55144A822C19A77000748AE5 /* ContentView.swift */,
+				55144AB52C19C65F00748AE5 /* DisplayModeSelectorView.swift */,
+				555450572C1A0B2100158A75 /* Styles */,
+				55144AAC2C19BE5200748AE5 /* DisplayMods */,
 				55144A842C19A77100748AE5 /* Assets.xcassets */,
+				55144ABC2C19F95A00748AE5 /* SVG */,
+				55144AB72C19F6FF00748AE5 /* Package.swift */,
 				55144A862C19A77100748AE5 /* Preview Content */,
 			);
 			path = MyBreath;
@@ -127,6 +156,44 @@
 			path = MyBreathUITests;
 			sourceTree = "<group>";
 		};
+		55144AAC2C19BE5200748AE5 /* DisplayMods */ = {
+			isa = PBXGroup;
+			children = (
+				55144AAA2C19BE3700748AE5 /* DisplayMode.swift */,
+				55144AAD2C19BE6500748AE5 /* DisplayModeKey.swift */,
+				55144AAF2C19BF0A00748AE5 /* DisplayModeModifier.swift */,
+				55144AB12C19BF6100748AE5 /* NormalStyle.swift */,
+				55144AB32C19C06400748AE5 /* BigStyle.swift */,
+			);
+			path = DisplayMods;
+			sourceTree = "<group>";
+		};
+		55144ABC2C19F95A00748AE5 /* SVG */ = {
+			isa = PBXGroup;
+			children = (
+				55144ABD2C19F9D300748AE5 /* logo.svg */,
+			);
+			path = SVG;
+			sourceTree = "<group>";
+		};
+		555450572C1A0B2100158A75 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				555450582C1A0DE500158A75 /* ButtonsStyles */,
+				555450552C1A0B1400158A75 /* TextStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		555450582C1A0DE500158A75 /* ButtonsStyles */ = {
+			isa = PBXGroup;
+			children = (
+				555450592C1A0E0700158A75 /* NormalTextButton.swift */,
+				5554505B2C1A0E1B00158A75 /* BigTextButton.swift */,
+			);
+			path = ButtonsStyles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +210,9 @@
 			dependencies = (
 			);
 			name = MyBreath;
+			packageProductDependencies = (
+				55144ABA2C19F8E500748AE5 /* SwiftSVG */,
+			);
 			productName = MyBreath;
 			productReference = 55144A7D2C19A77000748AE5 /* MyBreath.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +285,9 @@
 				Base,
 			);
 			mainGroup = 55144A742C19A76F00748AE5;
+			packageReferences = (
+				55144AB92C19F8E500748AE5 /* XCRemoteSwiftPackageReference "SwiftSVG" */,
+			);
 			productRefGroup = 55144A7E2C19A77000748AE5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55144A882C19A77100748AE5 /* Preview Assets.xcassets in Resources */,
+				55144ABE2C19F9D300748AE5 /* logo.svg in Resources */,
 				55144A852C19A77100748AE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +331,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55144AB22C19BF6100748AE5 /* NormalStyle.swift in Sources */,
+				55144AAB2C19BE3700748AE5 /* DisplayMode.swift in Sources */,
+				555450562C1A0B1400158A75 /* TextStyles.swift in Sources */,
 				55144A832C19A77000748AE5 /* ContentView.swift in Sources */,
+				55144AB82C19F6FF00748AE5 /* Package.swift in Sources */,
 				55144A812C19A77000748AE5 /* MyBreathApp.swift in Sources */,
+				55144AAE2C19BE6500748AE5 /* DisplayModeKey.swift in Sources */,
+				55144AB02C19BF0A00748AE5 /* DisplayModeModifier.swift in Sources */,
+				5554505A2C1A0E0700158A75 /* NormalTextButton.swift in Sources */,
+				5554505C2C1A0E1B00158A75 /* BigTextButton.swift in Sources */,
+				55144AB42C19C06400748AE5 /* BigStyle.swift in Sources */,
+				55144AB62C19C65F00748AE5 /* DisplayModeSelectorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +666,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55144AB92C19F8E500748AE5 /* XCRemoteSwiftPackageReference "SwiftSVG" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mchoe/SwiftSVG";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55144ABA2C19F8E500748AE5 /* SwiftSVG */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55144AB92C19F8E500748AE5 /* XCRemoteSwiftPackageReference "SwiftSVG" */;
+			productName = SwiftSVG;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 55144A752C19A76F00748AE5 /* Project object */;
 }
