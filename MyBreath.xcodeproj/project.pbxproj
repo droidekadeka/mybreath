@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55144A812C19A77000748AE5 /* MyBreathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144A802C19A77000748AE5 /* MyBreathApp.swift */; };
+		55144A832C19A77000748AE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144A822C19A77000748AE5 /* ContentView.swift */; };
+		55144A852C19A77100748AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55144A842C19A77100748AE5 /* Assets.xcassets */; };
+		55144A882C19A77100748AE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55144A872C19A77100748AE5 /* Preview Assets.xcassets */; };
+		55144A922C19A77100748AE5 /* MyBreathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144A912C19A77100748AE5 /* MyBreathTests.swift */; };
+		55144A9C2C19A77100748AE5 /* MyBreathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144A9B2C19A77100748AE5 /* MyBreathUITests.swift */; };
+		55144A9E2C19A77100748AE5 /* MyBreathUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144A9D2C19A77100748AE5 /* MyBreathUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55144A8E2C19A77100748AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55144A752C19A76F00748AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55144A7C2C19A77000748AE5;
+			remoteInfo = MyBreath;
+		};
+		55144A982C19A77100748AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55144A752C19A76F00748AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55144A7C2C19A77000748AE5;
+			remoteInfo = MyBreath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55144A7D2C19A77000748AE5 /* MyBreath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBreath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55144A802C19A77000748AE5 /* MyBreathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBreathApp.swift; sourceTree = "<group>"; };
+		55144A822C19A77000748AE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		55144A842C19A77100748AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55144A872C19A77100748AE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55144A8D2C19A77100748AE5 /* MyBreathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBreathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55144A912C19A77100748AE5 /* MyBreathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBreathTests.swift; sourceTree = "<group>"; };
+		55144A972C19A77100748AE5 /* MyBreathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBreathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55144A9B2C19A77100748AE5 /* MyBreathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBreathUITests.swift; sourceTree = "<group>"; };
+		55144A9D2C19A77100748AE5 /* MyBreathUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBreathUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55144A7A2C19A77000748AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55144A8A2C19A77100748AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55144A942C19A77100748AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55144A742C19A76F00748AE5 = {
+			isa = PBXGroup;
+			children = (
+				55144A7F2C19A77000748AE5 /* MyBreath */,
+				55144A902C19A77100748AE5 /* MyBreathTests */,
+				55144A9A2C19A77100748AE5 /* MyBreathUITests */,
+				55144A7E2C19A77000748AE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55144A7E2C19A77000748AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55144A7D2C19A77000748AE5 /* MyBreath.app */,
+				55144A8D2C19A77100748AE5 /* MyBreathTests.xctest */,
+				55144A972C19A77100748AE5 /* MyBreathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55144A7F2C19A77000748AE5 /* MyBreath */ = {
+			isa = PBXGroup;
+			children = (
+				55144A802C19A77000748AE5 /* MyBreathApp.swift */,
+				55144A822C19A77000748AE5 /* ContentView.swift */,
+				55144A842C19A77100748AE5 /* Assets.xcassets */,
+				55144A862C19A77100748AE5 /* Preview Content */,
+			);
+			path = MyBreath;
+			sourceTree = "<group>";
+		};
+		55144A862C19A77100748AE5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55144A872C19A77100748AE5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55144A902C19A77100748AE5 /* MyBreathTests */ = {
+			isa = PBXGroup;
+			children = (
+				55144A912C19A77100748AE5 /* MyBreathTests.swift */,
+			);
+			path = MyBreathTests;
+			sourceTree = "<group>";
+		};
+		55144A9A2C19A77100748AE5 /* MyBreathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55144A9B2C19A77100748AE5 /* MyBreathUITests.swift */,
+				55144A9D2C19A77100748AE5 /* MyBreathUITestsLaunchTests.swift */,
+			);
+			path = MyBreathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55144A7C2C19A77000748AE5 /* MyBreath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55144AA12C19A77100748AE5 /* Build configuration list for PBXNativeTarget "MyBreath" */;
+			buildPhases = (
+				55144A792C19A77000748AE5 /* Sources */,
+				55144A7A2C19A77000748AE5 /* Frameworks */,
+				55144A7B2C19A77000748AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBreath;
+			productName = MyBreath;
+			productReference = 55144A7D2C19A77000748AE5 /* MyBreath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55144A8C2C19A77100748AE5 /* MyBreathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55144AA42C19A77100748AE5 /* Build configuration list for PBXNativeTarget "MyBreathTests" */;
+			buildPhases = (
+				55144A892C19A77100748AE5 /* Sources */,
+				55144A8A2C19A77100748AE5 /* Frameworks */,
+				55144A8B2C19A77100748AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55144A8F2C19A77100748AE5 /* PBXTargetDependency */,
+			);
+			name = MyBreathTests;
+			productName = MyBreathTests;
+			productReference = 55144A8D2C19A77100748AE5 /* MyBreathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55144A962C19A77100748AE5 /* MyBreathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55144AA72C19A77100748AE5 /* Build configuration list for PBXNativeTarget "MyBreathUITests" */;
+			buildPhases = (
+				55144A932C19A77100748AE5 /* Sources */,
+				55144A942C19A77100748AE5 /* Frameworks */,
+				55144A952C19A77100748AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55144A992C19A77100748AE5 /* PBXTargetDependency */,
+			);
+			name = MyBreathUITests;
+			productName = MyBreathUITests;
+			productReference = 55144A972C19A77100748AE5 /* MyBreathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55144A752C19A76F00748AE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					55144A7C2C19A77000748AE5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					55144A8C2C19A77100748AE5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 55144A7C2C19A77000748AE5;
+					};
+					55144A962C19A77100748AE5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 55144A7C2C19A77000748AE5;
+					};
+				};
+			};
+			buildConfigurationList = 55144A782C19A76F00748AE5 /* Build configuration list for PBXProject "MyBreath" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55144A742C19A76F00748AE5;
+			productRefGroup = 55144A7E2C19A77000748AE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55144A7C2C19A77000748AE5 /* MyBreath */,
+				55144A8C2C19A77100748AE5 /* MyBreathTests */,
+				55144A962C19A77100748AE5 /* MyBreathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55144A7B2C19A77000748AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55144A882C19A77100748AE5 /* Preview Assets.xcassets in Resources */,
+				55144A852C19A77100748AE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55144A8B2C19A77100748AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55144A952C19A77100748AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55144A792C19A77000748AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55144A832C19A77000748AE5 /* ContentView.swift in Sources */,
+				55144A812C19A77000748AE5 /* MyBreathApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55144A892C19A77100748AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55144A922C19A77100748AE5 /* MyBreathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55144A932C19A77100748AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55144A9E2C19A77100748AE5 /* MyBreathUITestsLaunchTests.swift in Sources */,
+				55144A9C2C19A77100748AE5 /* MyBreathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55144A8F2C19A77100748AE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55144A7C2C19A77000748AE5 /* MyBreath */;
+			targetProxy = 55144A8E2C19A77100748AE5 /* PBXContainerItemProxy */;
+		};
+		55144A992C19A77100748AE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55144A7C2C19A77000748AE5 /* MyBreath */;
+			targetProxy = 55144A982C19A77100748AE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55144A9F2C19A77100748AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55144AA02C19A77100748AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55144AA22C19A77100748AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyBreath/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LongJorney.MyBreath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55144AA32C19A77100748AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyBreath/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LongJorney.MyBreath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55144AA52C19A77100748AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LongJorney.MyBreathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBreath.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyBreath";
+			};
+			name = Debug;
+		};
+		55144AA62C19A77100748AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LongJorney.MyBreathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBreath.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyBreath";
+			};
+			name = Release;
+		};
+		55144AA82C19A77100748AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LongJorney.MyBreathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyBreath;
+			};
+			name = Debug;
+		};
+		55144AA92C19A77100748AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LongJorney.MyBreathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyBreath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55144A782C19A76F00748AE5 /* Build configuration list for PBXProject "MyBreath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55144A9F2C19A77100748AE5 /* Debug */,
+				55144AA02C19A77100748AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55144AA12C19A77100748AE5 /* Build configuration list for PBXNativeTarget "MyBreath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55144AA22C19A77100748AE5 /* Debug */,
+				55144AA32C19A77100748AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55144AA42C19A77100748AE5 /* Build configuration list for PBXNativeTarget "MyBreathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55144AA52C19A77100748AE5 /* Debug */,
+				55144AA62C19A77100748AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55144AA72C19A77100748AE5 /* Build configuration list for PBXNativeTarget "MyBreathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55144AA82C19A77100748AE5 /* Debug */,
+				55144AA92C19A77100748AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55144A752C19A76F00748AE5 /* Project object */;
+}
