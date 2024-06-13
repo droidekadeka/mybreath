@@ -23,6 +23,7 @@
 		55144AB82C19F6FF00748AE5 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55144AB72C19F6FF00748AE5 /* Package.swift */; };
 		55144ABB2C19F8E500748AE5 /* SwiftSVG in Frameworks */ = {isa = PBXBuildFile; productRef = 55144ABA2C19F8E500748AE5 /* SwiftSVG */; };
 		55144ABE2C19F9D300748AE5 /* logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 55144ABD2C19F9D300748AE5 /* logo.svg */; };
+		554723A12C1B173900E72FD3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554723A02C1B173900E72FD3 /* MainView.swift */; };
 		555450562C1A0B1400158A75 /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555450552C1A0B1400158A75 /* TextStyles.swift */; };
 		5554505A2C1A0E0700158A75 /* NormalTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555450592C1A0E0700158A75 /* NormalTextButton.swift */; };
 		5554505C2C1A0E1B00158A75 /* BigTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5554505B2C1A0E1B00158A75 /* BigTextButton.swift */; };
@@ -64,6 +65,7 @@
 		55144AB52C19C65F00748AE5 /* DisplayModeSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayModeSelectorView.swift; sourceTree = "<group>"; };
 		55144AB72C19F6FF00748AE5 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		55144ABD2C19F9D300748AE5 /* logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logo.svg; sourceTree = "<group>"; };
+		554723A02C1B173900E72FD3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		555450552C1A0B1400158A75 /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
 		555450592C1A0E0700158A75 /* NormalTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalTextButton.swift; sourceTree = "<group>"; };
 		5554505B2C1A0E1B00158A75 /* BigTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTextButton.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				55144A802C19A77000748AE5 /* MyBreathApp.swift */,
 				55144A822C19A77000748AE5 /* ContentView.swift */,
 				55144AB52C19C65F00748AE5 /* DisplayModeSelectorView.swift */,
+				554723A02C1B173900E72FD3 /* MainView.swift */,
 				555450572C1A0B2100158A75 /* Styles */,
 				55144AAC2C19BE5200748AE5 /* DisplayMods */,
 				55144A842C19A77100748AE5 /* Assets.xcassets */,
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55144AB22C19BF6100748AE5 /* NormalStyle.swift in Sources */,
+				554723A12C1B173900E72FD3 /* MainView.swift in Sources */,
 				55144AAB2C19BE3700748AE5 /* DisplayMode.swift in Sources */,
 				555450562C1A0B1400158A75 /* TextStyles.swift in Sources */,
 				55144A832C19A77000748AE5 /* ContentView.swift in Sources */,

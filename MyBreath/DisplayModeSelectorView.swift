@@ -7,15 +7,23 @@ struct DisplayModeSelectorView: View {
             Image("logo")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 150, height: 200)
+                .frame(width: 120, height: 150)
             
                 .padding()
             
-            Text("Choose \nText Size")                .foregroundColor(.black)
+            Text("Choose \ntext size")                .foregroundColor(.black)
                 .font(.system(size: 55))
                 .fontWeight(.black)
                 .padding()
                 .foregroundColor(Color(red: 34/255, green: 34/255, blue: 34/255))
+                .padding()
+            
+            Spacer()
+            
+            VStack(spacing:30) {
+                NormalTextButton()
+                BigTextButton()
+            }
             
                 Spacer()
             
