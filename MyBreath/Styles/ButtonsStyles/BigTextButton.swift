@@ -27,7 +27,7 @@ struct BigTextButton: View {
                            Image(systemName: "chevron.compact.right")
                                .foregroundColor(.black)
                        }
-                       .font(Font.system(size: 30, weight: .bold))
+                       .font(Font.system(size: 35, weight: .black))
                        .padding(.trailing)
                        .labelStyle(TitleFirstLabelStyle())
                 }

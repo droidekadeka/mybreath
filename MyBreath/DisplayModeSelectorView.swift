@@ -8,7 +8,6 @@ struct DisplayModeSelectorView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 120, height: 150)
-            
                 .padding()
             
             Text("Choose \ntext size")                .foregroundColor(.black)
