@@ -33,6 +33,14 @@
 		554723B92C1C862700E72FD3 /* CreateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554723B82C1C862700E72FD3 /* CreateButton.swift */; };
 		554723BB2C1C8DB900E72FD3 /* PracticeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554723BA2C1C8DB900E72FD3 /* PracticeButton.swift */; };
 		554723BD2C1C8F7D00E72FD3 /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554723BC2C1C8F7D00E72FD3 /* TestButton.swift */; };
+		554723BF2C206D0200E72FD3 /* ExploreList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554723BE2C206D0200E72FD3 /* ExploreList.swift */; };
+		554723C22C206DCD00E72FD3 /* PreviewPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554723C12C206DCD00E72FD3 /* PreviewPicture.swift */; };
+		554723C42C21BC7B00E72FD3 /* BreathTypes.json in Resources */ = {isa = PBXBuildFile; fileRef = 554723C32C21BC7B00E72FD3 /* BreathTypes.json */; };
+		554723C62C21CB2300E72FD3 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554723C52C21CB2300E72FD3 /* TagView.swift */; };
+		554723C82C21CC0300E72FD3 /* TimeTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554723C72C21CC0300E72FD3 /* TimeTagView.swift */; };
+		554723CA2C21CF1500E72FD3 /* ExploreBreathRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554723C92C21CF1500E72FD3 /* ExploreBreathRow.swift */; };
+		554723CC2C21D08300E72FD3 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554723CB2C21D08300E72FD3 /* test.swift */; };
+		554723D02C21E44A00E72FD3 /* ExploreListEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554723CF2C21E44A00E72FD3 /* ExploreListEnum.swift */; };
 		555450562C1A0B1400158A75 /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555450552C1A0B1400158A75 /* TextStyles.swift */; };
 		5554505A2C1A0E0700158A75 /* NormalTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555450592C1A0E0700158A75 /* NormalTextButton.swift */; };
 		5554505C2C1A0E1B00158A75 /* BigTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5554505B2C1A0E1B00158A75 /* BigTextButton.swift */; };
@@ -84,6 +92,14 @@
 		554723B82C1C862700E72FD3 /* CreateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButton.swift; sourceTree = "<group>"; };
 		554723BA2C1C8DB900E72FD3 /* PracticeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeButton.swift; sourceTree = "<group>"; };
 		554723BC2C1C8F7D00E72FD3 /* TestButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButton.swift; sourceTree = "<group>"; };
+		554723BE2C206D0200E72FD3 /* ExploreList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreList.swift; sourceTree = "<group>"; };
+		554723C12C206DCD00E72FD3 /* PreviewPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPicture.swift; sourceTree = "<group>"; };
+		554723C32C21BC7B00E72FD3 /* BreathTypes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BreathTypes.json; sourceTree = "<group>"; };
+		554723C52C21CB2300E72FD3 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		554723C72C21CC0300E72FD3 /* TimeTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTagView.swift; sourceTree = "<group>"; };
+		554723C92C21CF1500E72FD3 /* ExploreBreathRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreBreathRow.swift; sourceTree = "<group>"; };
+		554723CB2C21D08300E72FD3 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		554723CF2C21E44A00E72FD3 /* ExploreListEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreListEnum.swift; sourceTree = "<group>"; };
 		555450552C1A0B1400158A75 /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
 		555450592C1A0E0700158A75 /* NormalTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalTextButton.swift; sourceTree = "<group>"; };
 		5554505B2C1A0E1B00158A75 /* BigTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTextButton.swift; sourceTree = "<group>"; };
@@ -142,11 +158,14 @@
 				55144A822C19A77000748AE5 /* ContentView.swift */,
 				55144AB52C19C65F00748AE5 /* DisplayModeSelectorView.swift */,
 				554723B12C1C6A0C00E72FD3 /* MainViewTest.swift */,
+				554723BE2C206D0200E72FD3 /* ExploreList.swift */,
+				554723C02C206D3D00E72FD3 /* ExploreListDetails */,
 				554723B32C1C72D400E72FD3 /* MainDetails */,
 				554723A22C1B5E2300E72FD3 /* NavigationBar */,
 				555450572C1A0B2100158A75 /* Styles */,
 				55144AAC2C19BE5200748AE5 /* DisplayMods */,
 				55144A842C19A77100748AE5 /* Assets.xcassets */,
+				554723C32C21BC7B00E72FD3 /* BreathTypes.json */,
 				55144ABC2C19F95A00748AE5 /* SVG */,
 				55144AB72C19F6FF00748AE5 /* Package.swift */,
 				55144A862C19A77100748AE5 /* Preview Content */,
@@ -220,6 +239,19 @@
 				554723B62C1C732500E72FD3 /* RandomPracticeForFocus.swift */,
 			);
 			path = MainDetails;
+			sourceTree = "<group>";
+		};
+		554723C02C206D3D00E72FD3 /* ExploreListDetails */ = {
+			isa = PBXGroup;
+			children = (
+				554723C12C206DCD00E72FD3 /* PreviewPicture.swift */,
+				554723CF2C21E44A00E72FD3 /* ExploreListEnum.swift */,
+				554723C52C21CB2300E72FD3 /* TagView.swift */,
+				554723C72C21CC0300E72FD3 /* TimeTagView.swift */,
+				554723C92C21CF1500E72FD3 /* ExploreBreathRow.swift */,
+				554723CB2C21D08300E72FD3 /* test.swift */,
+			);
+			path = ExploreListDetails;
 			sourceTree = "<group>";
 		};
 		555450572C1A0B2100158A75 /* Styles */ = {
@@ -353,6 +385,7 @@
 				55144A882C19A77100748AE5 /* Preview Assets.xcassets in Resources */,
 				55144ABE2C19F9D300748AE5 /* logo.svg in Resources */,
 				55144A852C19A77100748AE5 /* Assets.xcassets in Resources */,
+				554723C42C21BC7B00E72FD3 /* BreathTypes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,15 +410,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554723C82C21CC0300E72FD3 /* TimeTagView.swift in Sources */,
 				554723A82C1B679800E72FD3 /* NavBarEnum.swift in Sources */,
 				554723B92C1C862700E72FD3 /* CreateButton.swift in Sources */,
 				55144AB22C19BF6100748AE5 /* NormalStyle.swift in Sources */,
 				554723BD2C1C8F7D00E72FD3 /* TestButton.swift in Sources */,
 				554723B02C1C5BF000E72FD3 /* NavigationBarFullTest.swift in Sources */,
 				554723AE2C1B6E0000E72FD3 /* NavigationBar.swift in Sources */,
+				554723C62C21CB2300E72FD3 /* TagView.swift in Sources */,
 				55144AAB2C19BE3700748AE5 /* DisplayMode.swift in Sources */,
+				554723CA2C21CF1500E72FD3 /* ExploreBreathRow.swift in Sources */,
+				554723BF2C206D0200E72FD3 /* ExploreList.swift in Sources */,
 				555450562C1A0B1400158A75 /* TextStyles.swift in Sources */,
 				55144A832C19A77000748AE5 /* ContentView.swift in Sources */,
+				554723CC2C21D08300E72FD3 /* test.swift in Sources */,
 				55144AB82C19F6FF00748AE5 /* Package.swift in Sources */,
 				55144A812C19A77000748AE5 /* MyBreathApp.swift in Sources */,
 				55144AAE2C19BE6500748AE5 /* DisplayModeKey.swift in Sources */,
@@ -397,6 +435,8 @@
 				554723BB2C1C8DB900E72FD3 /* PracticeButton.swift in Sources */,
 				554723B52C1C731700E72FD3 /* RandomPracticeForRelax.swift in Sources */,
 				554723AC2C1B6BAD00E72FD3 /* HomeButton.swift in Sources */,
+				554723D02C21E44A00E72FD3 /* ExploreListEnum.swift in Sources */,
+				554723C22C206DCD00E72FD3 /* PreviewPicture.swift in Sources */,
 				55144AB62C19C65F00748AE5 /* DisplayModeSelectorView.swift in Sources */,
 				554723B22C1C6A0C00E72FD3 /* MainViewTest.swift in Sources */,
 			);

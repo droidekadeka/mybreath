@@ -1,0 +1,74 @@
+[
+    {
+            "id": 101,
+            "type": "typeCalm",
+            "title": "Fearless",
+            "about": "Text about",
+            "previewPicture": "calm",
+            "breathTime":{
+                "breathTimeMin": 1,
+                "breathTimeMax": 4
+            },
+            "breathProcess": {
+                "breathIn": 1,
+                "breathHold": 2,
+                "breathOut": 1,
+                "breathWait": 1
+            }, 
+            "colorStyle": "colorcalm2"
+    },
+    {
+        "id": 102,
+        "type": "typeCalm",
+        "title": "Sleep",
+        "about": "Text about",
+        "previewPicture": "calm",
+        "breathTime":{
+            "breathTimeMin": 3,
+            "breathTimeMax": 10
+        },
+        "breathProcess": {
+            "breathIn": 5,
+            "breathHold": 1,
+            "breathOut": 7,
+            "breathWait": 2
+        }, 
+        "colorStyle": "colorfocus1"
+},
+    {
+            "id": 103,
+            "type": "typeFocus",
+            "title": "Zen",
+            "about": "Text about",
+            "previewPicture": "focus",
+            "breathTime":{
+                "breathTimeMin": 1,
+                "breathTimeMax": 4
+            },
+            "breathProcess": {
+                "breathIn": 8,
+                "breathHold": 3,
+                "breathOut": 9,
+                "breathWait": 2
+            }, 
+            "colorStyle": "colorfocus1"
+    },
+    {
+        "id": 104,
+        "type": "typeFocus",
+        "title": "Wolf-Healler",
+        "about": "Text about",
+        "previewPicture": "focus",
+        "breathTime":{
+            "breathTimeMin": 1,
+            "breathTimeMax": 4
+        },
+        "breathProcess": {
+            "breathIn": 8,
+            "breathHold": 3,
+            "breathOut": 9,
+            "breathWait": 2
+        }, 
+        "colorStyle": "colorfocus2"
+}
+]
